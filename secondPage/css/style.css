@@ -1,0 +1,134 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(246, 246, 209)
+  }
+
+  #word-section {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 60px;
+  }
+
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .word1 {
+    animation: fadeIn 1s ease-in-out 0.5s both;
+  }
+  
+  .word2 {
+    animation: fadeIn 1s ease-in-out 1s both;
+  }
+  
+  .word3 {
+    animation: fadeIn 1s ease-in-out 1.5s both;
+  }
+  
+  .word4 {
+    animation: fadeIn 1s ease-in-out 2s both;
+  }
+  
+  .word5 {
+    animation: fadeIn 1s ease-in-out 2.5s both;
+  }
+  
+  .word6 {
+    animation: fadeIn 1s ease-in-out 3s both;
+  }
+  
+  .word7 {
+    animation: fadeIn 1s ease-in-out 3.5s both;
+  }
+  
+  .word8 {
+    animation: fadeIn 1s ease-in-out 4s both;
+  }
+
+  .word9 {
+    animation: fadeIn 1s ease-in-out 4.5s both;
+  }
+  
+  .word10 {
+    animation: fadeIn 1s ease-in-out 5s both;
+  }
+  
+  .word11 {
+    animation: fadeIn 1s ease-in-out 5.5s both;
+  }
+  
+  .word12 {
+    animation: fadeIn 1s ease-in-out 6s both;
+  }
+  
+  .word13 {
+    animation: fadeIn 1s ease-in-out 6.5s both;
+  }
+  
+  .word14 {
+    animation: fadeIn 1s ease-in-out 7s both;
+  }
+  
+  .word15 {
+    animation: fadeIn 1s ease-in-out 7.5s both;
+  }
+  
+  .word16 {
+    animation: fadeIn 1s ease-in-out 8s both;
+  }
+  
+  .word17 {
+    animation: fadeIn 1s ease-in-out 8.5s both;
+  }
+
+
+.word3 {
+    color: rgb(219, 185, 16);
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.word5 {
+    color: rgb(219, 185, 16);
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+.word10 {
+    color: rgb(219, 185, 16);
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.word17 {
+  font-weight: bold;
+  color: black
+}
+
+.word17 a {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+  }
+
+  .word-div .word17:hover {
+    color: rgb(219, 185, 16);
+}
+
+

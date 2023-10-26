@@ -1,0 +1,227 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: beige;
+}
+
+@keyframes wordAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+    @keyframes LeftToRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  #appear-section {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 60px;
+  }
+  
+.word1 {
+    color: rgb(0, 0, 0);
+  }
+
+.word2 {
+    animation: wordAnimation 0s ease-in-out;
+    animation-delay: 0s;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: rgb(0, 0, 0);
+}
+
+.word3 {
+    animation: wordAnimation 0s ease-in-out;
+    animation-delay: 0s;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: rgb(219, 185, 16);
+}
+
+.word4 {
+    animation: wordAnimation 0s ease-in-out;
+    animation-delay: 0s;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: rgb(219, 185, 16);
+}
+
+.word5 {
+    animation: wordAnimation 0s ease-in-out;
+    animation-delay: 0s;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: rgb(219, 185, 16);
+}
+
+.word6 {
+    color: rgb(0, 0, 0);
+}
+
+.word7 {
+    color: rgb(0, 0, 0);
+}
+
+.word8 {
+    color: rgb(0, 0, 0);
+}
+
+.word9 {
+    color: rgb(0, 0, 0);
+}
+
+.word10 {
+    color: rgb(0, 0, 0);
+}
+
+.word11 {
+    animation: wordAnimation 0s ease-in-out;
+    animation-delay: 0s;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: rgb(0, 0, 0);
+}
+
+.word12 {
+    animation: wordAnimation 0s ease-in-out;
+    animation-delay: 0s;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: rgb(219, 185, 16);
+}
+
+.word13 {
+    animation: wordAnimation 0s ease-in-out;
+    animation-delay: 0s;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: rgb(0, 0, 0);
+}
+
+.word14 {
+    animation: wordAnimation 0s ease-in-out;
+    animation-delay: 0s;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: rgb(219, 185, 16);
+}
+
+.word14 a {
+  text-decoration: none;
+  outline: none;
+}
+
+.appear-div .word2:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0s;
+    color: rgb(0, 0, 0);
+}
+
+.appear-div .word3:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0s;
+    color: rgb(219, 185, 16);
+}
+
+.appear-div .word4:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0s;
+    color: rgb(219, 185, 16);
+}
+
+.appear-div .word5:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0s;
+    color: rgb(219, 185, 16);
+}
+
+.appear-div .word6:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0s;
+    color: rgb(0, 0, 0);
+}
+
+.appear-div .word7:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0s;
+    color: rgb(0, 0, 0);
+}
+
+.appear-div .word8:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0s;
+    color: rgb(0, 0, 0);
+}
+
+.appear-div .word9:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0s;
+    color: rgb(0, 0, 0);
+}
+
+.appear-div .word10:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0s;
+    color: rgb(0, 0, 0);
+}
+
+.appear-div .word11:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0s;
+    color: rgb(0, 0, 0);
+}
+
+.appear-div .word12:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0s;
+    color: rgb(219, 185, 16);
+}
+
+.appear-div .word13:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0s;
+    color: rgb(0, 0, 0);
+}
+
+.appear-div .word14:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0s;
+    color: rgb(219, 185, 16);
+}
+
+.appear-div .word14 a {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+ 

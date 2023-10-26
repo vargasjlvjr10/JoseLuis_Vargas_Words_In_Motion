@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(251, 240, 83)
+  }
+
+  #word-section {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 60px;
+  }
+
+  .word5 {
+    font-weight: bold;
+    color: rgb(219, 185, 16);
+  }
+
+  .word5 a {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+  }
+  
+  @keyframes SMALLFontSize {
+    0% {
+      font-size: 0px;
+    }
+    100% {
+      font-size: 60px;
+      
+    }
+  }
+
+  .word6 {
+    animation: SMALLFontSize 1s ease-in-out 0.5s both;
+  }
+  
+  .word7 {
+    animation: SMALLFontSize 1.5s ease-in-out 1.5s both;
+  }
+  
+  .word8 {
+    animation: SMALLFontSize 2s ease-in-out 2.5s both;
+  }
+  
+  .word9 {
+    animation: SMALLFontSize 2.5s ease-in-out 3.5s both;
+  }
+  
+  .word10 {
+    animation: SMALLFontSize 3s ease-in-out 4.5s both;
+  }
+  
+  .word10 {
+    font-weight: bold;
+    color: black;
+  }
+
+  .word10 a {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+  }
+
+  .word-div .word10:hover {
+    color: rgb(219, 185, 16);
+}

@@ -1,0 +1,156 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(248, 248, 185);
+}
+
+#blink-section {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 60px;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes wordAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  #blink-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+   .word2 {
+    animation: wordAnimation 0s ease-in-out;
+    animation-delay: 0s;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: rgb(219, 185, 16);
+}
+
+  .blink-div .word2:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0s;
+    color: rgb(219, 185, 16);
+}
+
+.word2 a {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+  }
+
+.word1  {
+    animation: blink 2.3s infinite;
+    display: inline-block;
+    padding: 5px;
+}
+
+.word3  {
+    animation: blink 3s infinite;
+    display: inline-block;
+    padding: 5px;
+}
+
+.word4  {
+    animation: blink 2s infinite;
+    display: inline-block;
+    padding: 5px;
+}
+
+.word5  {
+    animation: blink 3.6s infinite;
+    display: inline-block;
+    padding: 5px;
+}
+
+.word6  {
+    animation: blink 2.9s infinite;
+    display: inline-block;
+    padding: 5px;
+}
+
+.word7  {
+    animation: blink 3.8s infinite;
+    display: inline-block;
+    padding: 5px;
+}
+
+.word8  {
+    animation: blink 2.2s infinite;
+    display: inline-block;
+    padding: 5px;
+}
+
+.word9  {
+    animation: blink 3.5s infinite;
+    display: inline-block;
+    padding: 5px;
+}
+
+.word10  {
+    animation: blink 2.4s infinite;
+    display: inline-block;
+    padding: 5px;
+}
+
+.word11  {
+    animation: blink 3.3s infinite;
+    display: inline-block;
+    padding: 5px;
+}
+
+.word12  {
+    animation: blink 2.6s infinite;
+    display: inline-block;
+    padding: 5px;
+}
+
+.word13  {
+    animation: blink 3.0s infinite;
+    display: inline-block;
+    padding: 5px;
+}
+
+.word14  {
+    animation: blink 2.2s infinite;
+    display: inline-block;
+    padding: 5px;
+}
+
+.word15  {
+    animation: blink 3.5s infinite;
+    display: inline-block;
+    padding: 5px;
+}
+
+.word16  {
+    animation: blink 2.8s infinite;
+    display: inline-block;
+    padding: 5px;
+}
+
+.word17  {
+    animation: blink 3.7s infinite;
+    display: inline-block;
+    padding: 5px;
+}
